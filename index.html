@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrepAI - Your AI Study Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#2563EB', // blue-600
+                '50': '#EFF6FF',
+                '100': '#DBEAFE',
+                '200': '#BFDBFE',
+                '600': '#2563EB',
+                '700': '#1D4ED8',
+                '800': '#1E40AF',
+                '900': '#1E3A8A',
+              },
+              accent: {
+                DEFAULT: '#F59E0B', // amber-500
+                '500': '#F59E0B',
+                '600': '#D97706',
+              },
+              cream: {
+                DEFAULT: '#FDFBF6',
+                '100': '#F9F6F0',
+              },
+              charcoal: {
+                DEFAULT: '#334155', // slate-700
+                'light': '#475569', // slate-600
+              },
+              slate: {
+                '50': '#F8FAFC',
+                '100': '#F1F5F9',
+                '200': '#E2E8F0',
+                '300': '#CBD5E1',
+                '400': '#94A3B8',
+                '500': '#64748B',
+                '600': '#475569',
+                '700': '#334155',
+                '800': '#1E293B',
+                '900': '#0F172A',
+              }
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-cream-100">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

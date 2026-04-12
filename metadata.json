@@ -1,0 +1,5 @@
+{
+  "name": "PrepAI",
+  "description": "An AI-powered web application for students in India preparing for competitive exams like IIT JEE, NEET, and board exams. It features a Q-Bank generator, AI doubt solver, study material generator, and performance analytics.",
+  "requestFramePermissions": []
+}
